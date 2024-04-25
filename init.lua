@@ -71,6 +71,7 @@ vim.opt.scrolloff = 10
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 vim.api.nvim_set_keymap('', 'h', ':Ex<Enter>', { noremap = true })
+
 vim.api.nvim_set_keymap('', 'j', 'h', { noremap = true })
 vim.api.nvim_set_keymap('', 'k', 'j', { noremap = true })
 vim.api.nvim_set_keymap('', 'l', 'k', { noremap = true })
