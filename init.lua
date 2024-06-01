@@ -57,7 +57,7 @@ vim.opt.splitbelow = true
 --  See `:help 'list'`
 --  and `:help 'listchars'`
 vim.opt.list = true
-vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
+vim.opt.listchars = { tab = '  ', trail = ' ', nbsp = ' ' }
 
 -- Preview substitutions live, as you type!
 vim.opt.inccommand = 'split'
@@ -70,7 +70,7 @@ vim.opt.scrolloff = 10
 
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
-vim.api.nvim_set_keymap('', 'h', ':Ex<Enter>', { noremap = true })
+vim.api.nvim_set_keymap('', 'h', '<Nop>', { noremap = true })
 
 vim.api.nvim_set_keymap('', 'j', 'h', { noremap = true })
 vim.api.nvim_set_keymap('', 'k', 'j', { noremap = true })
