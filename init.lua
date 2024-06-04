@@ -1,3 +1,6 @@
+-- Set tabstop and shiftwidth to be a little bit more narrower
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
 -- Set <space> as the leader key
 -- See `:help mapleader`
 --  NOTE: Must happen before plugins are loaded (otherwise wrong leader will be used)
